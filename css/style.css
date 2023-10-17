@@ -1,0 +1,42 @@
+.body {
+  position: relative;
+  background: #000;
+}
+
+.calculator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  background: #222;
+  color: #FFF;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  font-size: 24px;
+}
+.calculator__header {
+  text-align: right;
+  padding: 16px;
+}
+.calculator__table {
+  width: 100%;
+}
+.calculator__table caption {
+  display: none;
+}
+.calculator__table td, .calculator__table th {
+  border: 1px solid #FFF;
+}
+.calculator__table td button, .calculator__table th button {
+  width: 100%;
+  padding: 4px;
+}
+.calculator__table tr th:last-child, .calculator__table td:last-child {
+  background: #FF9B23;
+}
+.calculator__table td {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

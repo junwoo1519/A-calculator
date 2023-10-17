@@ -1,0 +1,47 @@
+.body {
+  position: relative;
+  background: #000;
+}
+
+.calculator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  background: #222;
+  color: #FFF;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  font-size: 24px;
+
+  &__header {
+    text-align: right;
+    padding: 16px;
+
+  }
+
+  &__table {
+    width: 100%;
+
+    caption {
+      display: none;
+    }
+    
+    td,th{
+      border: 1px solid #FFF;
+      button{
+        width: 100%;
+        padding: 4px;
+      }
+    }
+    
+    tr th:last-child, td:last-child{
+      background: #FF9B23;
+    }
+
+    td {
+      text-align: center;
+    }
+  }
+}
