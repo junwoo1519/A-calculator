@@ -11,14 +11,14 @@
   width: 200px;
   background: #222;
   color: #FFF;
-  border: 1px solid #aaa;
   border-radius: 8px;
   font-size: 24px;
 
   &__header {
     text-align: right;
     padding: 16px;
-
+    border: 1px solid #aaa;
+    border-bottom: none;
   }
 
   &__table {
@@ -29,7 +29,7 @@
     }
     
     td,th{
-      border: 1px solid #FFF;
+      border: 1px solid #aaa;
       button{
         width: 100%;
         padding: 4px;

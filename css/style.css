@@ -11,13 +11,14 @@
   width: 200px;
   background: #222;
   color: #FFF;
-  border: 1px solid #aaa;
   border-radius: 8px;
   font-size: 24px;
 }
 .calculator__header {
   text-align: right;
   padding: 16px;
+  border: 1px solid #aaa;
+  border-bottom: none;
 }
 .calculator__table {
   width: 100%;
@@ -26,7 +27,7 @@
   display: none;
 }
 .calculator__table td, .calculator__table th {
-  border: 1px solid #FFF;
+  border: 1px solid #aaa;
 }
 .calculator__table td button, .calculator__table th button {
   width: 100%;
