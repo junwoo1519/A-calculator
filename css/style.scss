@@ -15,10 +15,13 @@
   font-size: 24px;
 
   &__header {
-    text-align: right;
     padding: 16px;
     border: 1px solid #aaa;
     border-bottom: none;
+  }
+
+  &__screen {
+    text-align: right;
   }
 
   &__table {
@@ -27,16 +30,17 @@
     caption {
       display: none;
     }
-    
-    td,th{
+
+    td, th {
       border: 1px solid #aaa;
-      button{
+
+      button {
         width: 100%;
         padding: 4px;
       }
     }
-    
-    tr th:last-child, td:last-child{
+
+    tr th:last-child, td:last-child {
       background: #FF9B23;
     }
 
