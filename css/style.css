@@ -19,6 +19,11 @@
   border: 1px solid #aaa;
   border-bottom: none;
 }
+.calculator__sub-screen {
+  text-align: right;
+  font-size: 20px;
+  color: #ceefff;
+}
 .calculator__screen {
   text-align: right;
 }
